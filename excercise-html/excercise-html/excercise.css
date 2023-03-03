@@ -8,7 +8,7 @@
 .awalan {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)),url(/assets/image/gambar1.jpg);
+    background: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)),url(/excercise-html/assets/image/gambar1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -103,7 +103,7 @@ b {
 }
 .aboutMe {
     width: 100%;
-    background: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)),url(/assets/image/pesawat1.jpg);
+    background: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)),url(/excercise-html/assets/image/pesawat1.jpg);
     height: 100vh;
     background-size:cover;
     background-position: center;
