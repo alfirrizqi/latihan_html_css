@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+
+}
+.awalan {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)),url(/assets/image/gambar1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav {
+    justify-content: space-between;
+    padding: 40px 5% 0 5%;
+    display: flex;
+    align-items: center;
+    color: #fafafa;  
+}
+.logo {
+    color: #fafafa;
+    font-size: 35px;
+    letter-spacing: 2px;
+    cursor: pointer ;
+}
+span {
+    color: brown
+}
+nav ul li {
+    list-style: none;
+    display: inline-flex;
+    padding: 25px 10px;   
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    transition: 5ms;
+    color: brown;
+}
+.halamanUtama {
+    top: 50%;
+    left: 10%;
+    transform: translateY(-45%);
+    position: absolute;
+   
+}
+h1 {
+    color: cadetblue;
+    margin: 5px 0px 5px;
+    font-size: 40px;
+}
+h2 {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+h3 {
+    color:cadetblue;
+    font-size: 19px;
+    letter-spacing: normal;
+
+}
+.menuHome form {
+    width: 350px;
+    max-width: 100%;
+    position: relative;
+}
+.menuHome form input:first-child {
+    display: inline-block;
+    border: 2px solid cadetblue;
+    width: 80%;
+    padding:10px 100px 10px 15px;
+    outline: none;
+    border-radius: 20px;
+}
+.menuHome form input:last-child {
+    display: inline-block;
+    outline: none;
+    padding: 8px 15px;
+    border: none;
+    position: absolute;
+    border-radius: 20px;
+    background-color: brown;
+    box-shadow: 2px 2px 5px black, 1px 1px 10px cadetblue;
+    top: 3px;
+    right: 80px ;
+}
+.menuHome form input:last-child:hover {
+    transition: 5ms;
+    color: black;
+    background-color: cadetblue;
+    border-radius: 20px;
+}
+b {
+    color: white;
+    font-size: 15px;
+}
+.aboutMe {
+    width: 100%;
+    background: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)),url(/assets/image/pesawat1.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.aboutMe img {
+    height: auto;
+    width: 550px;
+    margin-top: 220px;   
+}
+.aboutText {
+    width:500px;
+    margin-top: 220px;
+}
+.mainAbout {
+    width: 1150px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aboutText h4 {
+   color: cadetblue;
+   font-size: 45px;
+   margin-bottom: 25px;
+   letter-spacing: 3px; 
+   text-transform: capitalize;
+}
+.aboutMe h5 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+.aboutText c {
+    color: whitesmoke;
+    font-size: 16px;
+    margin-bottom: 45px;
+    letter-spacing: 2px;
+    line-height: normal;
+}
